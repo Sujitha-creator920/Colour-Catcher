@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Catcher</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+
+</head>
+<style>
+    body{
+        background-image: url(https://img.freepik.com/premium-photo/dynamic-colorful-bouncing-balls-party-festival-colorful-background_887552-35932.jpg?w=1060);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+<body>
+  <div id="game-container">
+    <header>
+      <h1>🎨 Color Catcher</h1>
+      <div id="game-info">
+        <div id="target-color">🎯 Target Color: <span id="target">---</span></div>
+        <div id="score">🏆 Score: <span id="score-value">0</span></div>
+        <div id="high-score">🌟 High Score: <span id="high-score-value">0</span></div>
+      </div>
+    </header>
+    <div id="game-area"></div>
+    <footer>
+      <button id="restart-button" onclick="startGame()">🔄 Restart Game</button>
+      <button id="timer-mode-button" onclick="startTimerMode()">⏱ Timer Mode</button>
+      <p id="timer-display">⏳ Time Left: <span id="time-left">30</span> seconds</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
