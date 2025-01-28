@@ -7,3 +7,10 @@ screenshots
 
 video
 https://github.com/user-attachments/assets/30492cd9-772a-49d5-ac5a-d7bed0c5c6d1
+
+DESCRIPTION
+[DESCRIPTION.docx](https://github.com/user-attachments/files/18574031/DESCRIPTION.docx)
+
+
+TECHNOLOGIES USED
+[TECHNOLOGIES USED.docx](https://github.com/user-attachments/files/18574034/TECHNOLOGIES.USED.docx)
